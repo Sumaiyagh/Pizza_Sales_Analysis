@@ -1,0 +1,10 @@
+SELECT 
+    pizza_type, 
+    COUNT(*) AS order_count 
+FROM 
+    sales 
+GROUP BY 
+    pizza_type 
+ORDER BY 
+    order_count DESC 
+LIMIT 1;
