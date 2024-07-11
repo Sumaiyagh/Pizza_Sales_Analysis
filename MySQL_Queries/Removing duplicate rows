@@ -1,0 +1,2 @@
+DELETE FROM sales
+WHERE id NOT IN (SELECT MIN(id) FROM sales GROUP BY sale_date, pizza_type, total_amount);
