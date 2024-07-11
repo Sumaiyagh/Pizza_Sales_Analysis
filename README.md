@@ -4,6 +4,11 @@
 
 The Pizza Sales Analysis project aims to uncover trends, patterns, and insights from the sales data of a pizza restaurant chain. The analysis involves extracting, cleaning, and analyzing data using Excel and MySQL, and visualizing the findings with Power BI.
 
+![Overview]![Screenshot 2024-06-07 000550](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/ef13aa43-0fc5-4680-bd41-8670a91acff4)
+![Best/Worst sellers]
+![Screenshot (8)](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/50ff4c5e-bfc7-4093-9525-4ee1fabd4bc1)
+
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -21,7 +26,7 @@ The Pizza Sales Analysis project aims to uncover trends, patterns, and insights 
 
 ## Data Source
 
-**Data Source:** Excel
+**Excel** - [Download here](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/blob/main/pizza_sales_excel_file.xlsx)
 
 ## Data Cleaning
 
@@ -33,36 +38,29 @@ The data cleaning process was carried out using Excel and MySQL to ensure the da
 
 ## Data Analysis
 
+### Key Insights
+
+- **Total Revenue:** $817.86K
+- **Average Order Value:** $38.31
+- **Total Pizzas Sold:** 49,574
+- **Total Orders:** 21,000
+- **Average Pizzas per Order:** 2.32
+
 ### Sales Trends
 
-The analysis of sales trends focused on identifying the busiest sales periods and the most popular products. It was found that:
-
-- **Monthly Trends:** Sales peaked during certain months, indicating seasonal trends.
-- **Weekday Trends:** Sales were highest on weekends, particularly Saturdays and Sundays.
-- **Daily Trends:** There were specific times of the day when sales were significantly higher.
+- **Daily Trends:** Orders peak on Fridays and Saturdays.
+- **Monthly Trends:** July and January have the highest sales.
 
 ### Customer Preferences
 
-Understanding customer preferences involved analyzing the frequency of product purchases and customer demographics. Insights include:
+- **Top Pizza Categories:** Classic, Supreme, Veggie, Chicken
+- **Top Pizza Sizes:** Large, Medium, Regular
 
-- **Popular Pizzas:** The Margherita pizza was the most popular item, followed by Pepperoni and Veggie pizzas.
-- **Demographics:** The majority of customers were aged between 20-35, indicating a younger customer base.
-- **Order Patterns:** Regular customers tended to order specific combinations of pizzas and sides.
+### Best/Worst Sellers
 
-### Sales by Weekday
-
-Sales data revealed distinct patterns based on the day of the week:
-
-- **Highest Sales Days:** Saturdays and Sundays saw the highest sales volumes.
-- **Lowest Sales Days:** Mondays and Tuesdays had the lowest sales volumes.
-
-## Key Findings
-
-1. **Peak Sales Periods:** The highest sales were recorded during weekends and holidays.
-2. **Popular Pizzas:** The Margherita pizza was the top-selling item, followed by Pepperoni and Veggie pizzas.
-3. **Customer Demographics:** The majority of customers were aged between 20-35, indicating a younger customer base.
-4. **Sales Trends:** Monthly, weekly, and daily trends highlighted specific periods of high sales activity.
-5. **Order Patterns:** Regular customers exhibited consistent ordering habits, often choosing the same pizza combinations.
+- **Top Pizza by Revenue:** Thai Chicken Pizza
+- **Top Pizza by Quantity:** Classic Deluxe Pizza
+- **Top Pizza by Orders:** Classic Deluxe Pizza
 
 ## Visualizations
 
@@ -70,48 +68,22 @@ Visualizations were created using Power BI to provide a comprehensive view of th
 
 ### Monthly Sales Trends
 
-![Monthly Sales Trends](path_to_monthly_sales_trends_image)
+![Monthly Sales Trends]![Screenshot 2024-07-11 205657](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/d02d2af7-3db7-4dab-aa18-5bc7f293bd50)
+
 
 ### Top-Selling Pizzas
 
-![Top-Selling Pizzas](path_to_top_selling_pizzas_image)
+![Top-Selling Pizzas]![Screenshot 2024-07-11 205733](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/3e30294d-8b73-45a3-9006-be19233fc0cc)
 
-### Customer Age Distribution
-
-![Customer Age Distribution](path_to_customer_age_distribution_image)
 
 ### Sales by Weekday
 
-![Sales by Weekday](path_to_sales_by_weekday_image)
+![Sales by Weekday]![Screenshot 2024-07-11 205805](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/cf496bf8-87f1-473e-b84d-d32dbfb52063)
+
 
 ## Conclusion
 
 The Pizza Sales Analysis project provided valuable insights into sales patterns and customer preferences. These findings can help in tailoring marketing strategies, optimizing inventory management, and improving overall customer satisfaction.
-
-## Future Work
-
-Future analysis could focus on the following areas:
-
-1. **Sales Forecasting:** Implementing machine learning models to predict future sales trends.
-2. **Customer Segmentation:** Identifying distinct customer segments for targeted marketing campaigns.
-3. **Product Development:** Analyzing customer feedback to develop new pizza varieties.
-
-## Repository Structure
-
-```plaintext
-Pizza_Sales_Analysis/
-├── data/
-│   ├── raw_data.xlsx
-│   ├── cleaned_data.xlsx
-├── notebooks/
-│   ├── data_cleaning.ipynb
-│   ├── data_analysis.ipynb
-├── visuals/
-│   ├── monthly_sales_trends.png
-│   ├── top_selling_pizzas.png
-│   ├── customer_age_distribution.png
-│   ├── sales_by_weekday.png
-├── README.md
 
 
 
