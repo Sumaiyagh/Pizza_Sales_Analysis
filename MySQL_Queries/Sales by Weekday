@@ -1,0 +1,9 @@
+SELECT 
+    DAYNAME(sale_date) AS weekday, 
+    SUM(total_amount) AS total_sales 
+FROM 
+    sales 
+GROUP BY 
+    DAYNAME(sale_date) 
+ORDER BY 
+    FIELD(weekday, 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
