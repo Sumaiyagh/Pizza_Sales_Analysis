@@ -4,8 +4,8 @@
 
 The Pizza Sales Analysis project aims to uncover trends, patterns, and insights from the sales data of a pizza restaurant chain. The analysis involves extracting, cleaning, and analyzing data using Excel and MySQL, and visualizing the findings with Power BI.
 
-![Overview][Screenshot 2024-06-07 000550](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/ef13aa43-0fc5-4680-bd41-8670a91acff4)
-![Best/Worst sellers][Screenshot (8)](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/50ff4c5e-bfc7-4093-9525-4ee1fabd4bc1)
+![Screenshot 2024-06-07 000550](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/ef13aa43-0fc5-4680-bd41-8670a91acff4)
+![Screenshot (8)](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/50ff4c5e-bfc7-4093-9525-4ee1fabd4bc1)
 
 
 ## Table of Contents
@@ -14,9 +14,8 @@ The Pizza Sales Analysis project aims to uncover trends, patterns, and insights 
 2. [Data Source](#data-source)
 3. [Data Cleaning](#data-cleaning)
 4. [Data Analysis](#data-analysis)
-5. [Key Findings](#key-findings)
-6. [Visualizations](#visualizations)
-7. [Conclusion](#conclusion)
+5. [Visualizations](#visualizations)
+6. [Conclusion](#conclusion)
 
 
 ## Introduction
@@ -67,17 +66,17 @@ Visualizations were created using Power BI to provide a comprehensive view of th
 
 ### Monthly Sales Trends
 
-[Screenshot 2024-07-11 205657](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/d02d2af7-3db7-4dab-aa18-5bc7f293bd50)
+![Screenshot 2024-07-11 205657](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/d02d2af7-3db7-4dab-aa18-5bc7f293bd50)
 
 
 ### Top-Selling Pizzas
 
-[Screenshot 2024-07-11 205733](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/3e30294d-8b73-45a3-9006-be19233fc0cc)
+![Screenshot 2024-07-11 205733](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/3e30294d-8b73-45a3-9006-be19233fc0cc)
 
 
 ### Sales by Weekday
 
-[Screenshot 2024-07-11 205805](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/cf496bf8-87f1-473e-b84d-d32dbfb52063)
+![Screenshot 2024-07-11 205805](https://github.com/Sumaiyagh/Pizza_Sales_Analysis/assets/130544328/cf496bf8-87f1-473e-b84d-d32dbfb52063)
 
 
 ## Conclusion
